@@ -100,7 +100,7 @@ curl -X POST \
 Notes:
 - The `rtmps_key` intent is required; without it you will receive an authorization error.
 - Treat the RTMPS key as a secret. Do not expose it in the browser.
-- Use the POST endpoint to lazily create a live input if none exists (response will not include playback or SRT on creation); use GET to read the current state without creating.
+- Use the POST endpoint to lazily create a live input if none exists; use GET to read the current state without creating.
 
 ## Node.js example
 See `node/` for an Express server demonstrating PKCE auth, callback, refresh, and revoke.
