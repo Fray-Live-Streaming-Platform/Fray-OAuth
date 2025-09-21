@@ -67,7 +67,7 @@ Endpoints (Bearer access token required):
 - Ensure/Create and read: `POST /me/stream/live-input`
 - Read only (no create): `GET /me/stream/live-input`
 
-When a new stream key is provisioned (creation), the response contains only the RTMPS ingest values — no playback and no SRT fields:
+When a new stream key is provisioned (creation), the response contains only the RTMPS ingest values:
 ```json
 {
   "live_input_id": "...",
