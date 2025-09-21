@@ -70,9 +70,7 @@ Endpoints (Bearer access token required):
 When a new stream key is provisioned (creation), the response contains only the RTMPS ingest values:
 ```json
 {
-  "live_input_id": "...",
   "ingest": {
-    "rtmps_url": "rtmps://...",
     "rtmps_key": "live_..."
   }
 }
@@ -86,7 +84,7 @@ const r = await fetch(`${FRAY_BASE_URL}/me/stream/live-input`, {
 })
 if (!r.ok) throw new Error(`HTTP ${r.status}`)
 const data = await r.json()
-console.log('RTMPS:', data.ingest.rtmps_url, data.ingest.rtmps_key)
+console.log('RTMPS:', data.ingest.rtmps_key)
 ```
 
 Example (cURL):
