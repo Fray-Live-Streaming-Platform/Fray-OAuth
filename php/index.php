@@ -1,7 +1,4 @@
 <?php
-// Fray OAuth PHP Example
-// Gut lesbares, kommentiertes Minimalbeispiel für Authorization Code Flow mit PKCE.
-<?php
 session_start();
 $cfg = require __DIR__ . '/config.php';
 $loggedIn = isset($_SESSION['tokens']['access_token']);
