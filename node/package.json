@@ -1,0 +1,17 @@
+{
+  "name": "fray-oauth-node-example",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Fray OAuth example (Node.js + Express + PKCE)",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
+
+

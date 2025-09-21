@@ -1,0 +1,11 @@
+<?php
+// Copy to config.php and fill in values
+return [
+  'FRAY_BASE_URL' => 'https://api.fray.live',
+  'CLIENT_ID' => '',
+  'CLIENT_SECRET' => '',
+  'REDIRECT_URI' => 'http://localhost:5174/callback',
+  'INTENTS' => 'username avatar', // REQUIRED
+];
+
+
